@@ -1,0 +1,892 @@
+*{
+  box-sizing: border-box;
+}
+
+body, html {
+  cursor: url(../images/cursor.svg), auto;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  font-family: 'Emotical';
+}
+
+img:hover{
+  cursor: url(../images/cursor.svg), auto;
+}
+
+h1 {
+  position: absolute;
+  margin-top: 2%;
+  font-size: 8.8vw;
+  color: white;
+}
+
+.number {
+  position: absolute;
+  font-size: 1.7vw;
+  color: white;
+  font-family: 'Emotical';
+}
+
+.wrapper1 {
+  width: 100%;
+  height: 53.25vw;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 53.25vw;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/deskfirstbody.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 67% 102%;
+}
+
+.tongue {
+  margin: 42% 0 0 40%;
+  position: absolute;
+  animation: tongue 2s linear infinite;
+  width: 8%;
+  rotate: 15deg;
+}
+
+@keyframes tongue {
+  0% {top: -10%; opacity: 0;}
+  20% {top: 0%; opacity: 1;}
+  50% {top: 1.5%; opacity: 1;}
+  100% {top: 1.5%; opacity: 1;}
+}
+
+.pupil1, .pupil2 {
+  width: 3.7vw;
+  height: 3.88vw;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+@keyframes pupil {
+  from { transform: rotate(0deg) translateX(34%) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(34%) rotate(-360deg); }
+}
+
+@keyframes pupil2 {
+  from { transform: rotate(0deg) translateX(34%) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(34%) rotate(360deg);}
+}
+
+.pupil1 {
+  rotate: -20deg;
+  margin: 22% 0 0 -23%;
+  z-index: 3;
+  animation: pupil 3s linear infinite;
+}
+
+.pupil2 {
+  rotate: 20deg;
+  margin: 26% 0 0 18%;
+  z-index: 3;
+  animation: pupil2 3s linear infinite;
+}
+
+.vibrationlines1 {
+  position: absolute;
+  width: 21.8%;
+  margin: 12% 0 0 62%;
+}
+
+.vibrationlines2 {
+  position: absolute;
+  width: 24.5%;
+  margin: 14% 0 0 -57%;
+}
+
+.lettertab {
+  opacity: 0;
+}
+
+.orbit1 {
+  width: 21.6vw;
+  height: 21.6vw;
+  border: 0.2vw solid white;
+  border-radius: 50%;
+  margin: -9% 0 0 100%;
+  position: absolute;
+}
+
+.moon {
+  width: 23%;
+  position: absolute;
+  margin: -6% 0 0 -97%;
+}
+
+.bubbles1 {
+  position: absolute;
+  width: 2.5%;
+  margin: 2% 0 0 71%;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {opacity: 1; transform: scale(1);}
+  50% {opacity: 0; transform: scale(0.9);}
+  100% {opacity: 1; transform: scale(1);}
+}
+
+.bubbles2 {
+  position: absolute;
+  width: 2.5%;
+  margin: 22% 0 0 -94%;
+  rotate: -90deg;
+  animation: blink 0.5s linear infinite;
+  animation-delay: 1s;
+}
+
+.orbit2 {
+  width: 30.8vw;
+  height: 30.8vw;
+  border: 0.2vw solid white;
+  border-radius: 50%;
+  position: absolute;
+  margin: -13% 0 0 -98%;
+}
+
+.redstartab {
+  opacity: 0;
+}
+
+.heart1 {
+  margin: 0% 0 0 100%;
+  position: absolute;
+  width: 5%;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg) translateX(190%) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(190%) rotate(360deg);}
+}
+
+.number1, .number2, .number3 {
+  font-size: 1.7vw;
+  z-index: 3;
+  position: absolute;
+}
+
+.number1 {
+  margin: 19.5% 0 0 25%;
+}
+
+.number2 {
+  margin: 31% 0 0 59%;
+}
+
+.number3 {
+  margin: 52% 0 0 42%;
+}
+
+.c1, .c2, .c3, .c4 {
+  font-size: 8.7vw;
+  margin: 20% 0 0 -23%;
+
+}
+
+.blockc1 {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  margin: 36% 0 0 -26%;
+  animation: blockcmove 3s linear infinite;
+}
+
+.blockc2 {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  margin: 36% 0 0 -26%;
+  animation: blockcmove 3s linear infinite;
+  animation-delay: 1s;
+}
+
+.blockc3 {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  margin: 36% 0 0 -26%;
+  animation: blockcmove 3s linear infinite;
+  animation-delay: 2s;
+}
+
+.blockc4 {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  margin: 36% 0 0 -26%;
+  animation: blockcmove 3s linear infinite;
+  animation-delay: 3s;
+}
+
+@keyframes blockcmove {
+  0% {transform: translateX(0);}
+  50% {transform: translateX(-15vw);}
+  100% {transform: translateX(-30vw);}
+}
+
+.c1 {
+  opacity: 0; 
+  animation: cccc 3s linear infinite;
+}
+
+.c2 {
+  margin: -25% 0 0 65%;
+  opacity: 0; 
+  animation: cccc2 3s linear infinite;
+  animation-delay: 1s;
+}
+
+.c3 {
+  margin: -35% 0 0 68%;
+  opacity: 0;
+  animation: cccc3 3s linear infinite;
+  animation-delay: 2s;
+}
+
+.c4 {
+  margin: -24% 0 0 76%;
+  opacity: 0; 
+  animation: cccc4 3s linear infinite;
+  animation-delay: 3s;
+}
+
+@keyframes cccc {
+  0%   {transform: translate(0, -3vw); opacity: 0;}
+  10% {opacity: 1;}
+  50%  {transform: translate(-15vw, 6vw); opacity: 1;}
+  100% {transform: translateY(-50vw, 10vw); opacity: 0;}
+} 
+
+@keyframes cccc {
+  0%   {transform: translateX(0); transform: translateY(-3vw); opacity: 0;}
+  50%  {transform: translateX(-15vw); transform: translateY(6vw); opacity: 1;}
+  100% {transform: translateX(-50vw); transform: translateY(-3vw); opacity: 0;}
+} 
+
+
+@keyframes cccc2 {
+  0%   {transform: translateY(6vw); opacity: 0;}
+  10% {opacity: 1;}
+  50%  {transform: translateY(-3vw); opacity: 1;}
+  100% {transform: translateY(6vw); opacity: 0;}
+}  
+
+@keyframes cccc3 {
+  0%   {transform: translateY(6vw); opacity: 0;}
+  10% {opacity: 1;}
+  50%  {transform: translateY(-3vw); opacity: 1;}
+  100% {transform: translateY(6vw); opacity: 0;}
+}
+
+@keyframes cccc4 {
+  0%   {transform: translateY(6vw); opacity: 0;}
+  10% {opacity: 1;}
+  50%  {transform: translateY(-3vw); opacity: 1;}
+  100% {transform: translateY(6vw); opacity: 0;}
+} 
+
+.ufo1 {
+  position: absolute;
+  width: 7.5%;
+  margin: 27% 0 0 43%;
+  z-index: 3;
+  animation: ufo 5s linear infinite;
+}
+
+@keyframes ufo {
+  0% {left: -45%; transform: rotate(20deg);}
+  50% {left: 50%; transform: rotate(-10deg);}
+  100% { left: -45%; transform: rotate(20deg);}
+}
+
+.star1 {
+  width: 9%;
+  position: absolute;
+  margin: 34% 0 0 29%;
+  animation: blink 2s linear infinite;
+}
+
+
+.emoji {
+  width: 7.9%;
+  position: absolute;
+  margin: 36% 0 0 63%;
+  z-index: 3;
+  animation: rotateem 3s linear infinite;
+}
+
+@keyframes rotateem {
+  from {transform: rotate(0);}
+  to {transform: rotate(360deg);}
+}
+
+.cactus {
+  width: 5.8%;
+  position: absolute;
+  margin: 44% 0 0 51%;
+  z-index: 3;
+}
+
+.bubbles3 {
+  position: absolute;
+  width: 2.5%;
+  margin: 22% 0 0 -94%;
+  rotate: -90deg;
+  animation: blink 0.5s linear infinite;
+  animation-delay: 1s;
+}
+
+
+/* --------------- */
+
+.secondsection {
+  width: 100%;
+  height: 51.2vw;
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/desksecondbody.svg);
+  background-repeat: no-repeat;
+  background-size: 86%;
+  background-position: 36% 0%;
+}
+
+.bubbles3 {
+  position: absolute;
+  width: 2.5%;
+  margin: -1% 0 0 27%;
+  rotate: -90deg;
+  animation: blink 0.5s linear infinite;
+  animation-delay: 1s;
+}
+
+.bubbles4 {
+  position: absolute;
+  width: 2.5%;
+  margin: 14% 0 0 61%;
+  rotate: -90deg;
+  animation: blink 0.5s linear infinite;
+  animation-delay: 1s;
+}
+
+.bubbles5 {
+  position: absolute;
+  width: 2.5%;
+  margin: 19% 0 0 70%;
+  rotate: 180deg;
+  animation: blink 0.5s linear infinite;
+  animation-delay: 1s;
+}
+
+.letter {
+  position: absolute;
+  width: 6.3%;
+  margin: 2% 0 0 47%;
+  animation: swing 2s linear infinite;
+}
+
+@keyframes swing {
+  0% {rotate: -30deg;}
+  50% {rotate: 30deg;}
+  100% {rotate: -30deg;}
+}
+
+.cloud {
+  position: absolute;
+  width: 10.5%;
+  margin: 2% 0 0 38.5%;
+  animation: cloud 5s linear infinite;
+}
+
+@keyframes cloud {
+  0% {left: 5%;}
+  50% {left: 20%;}
+  100% { left: 5%;}
+}
+
+.balloon {
+  width: 7.7%;
+  position: absolute;
+  margin: 3% 0 0 10.5%;
+  animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+	0%{transform: translateY(0);}
+  40% {transform: translateY(-13%);} 
+  60% {transform: translateY(-0.5%);}
+  80% {transform: translateY(-13%);} 
+  100% {transform: translateY(0);}
+}
+
+.ladder {
+  position: absolute;
+  width: 7%;
+  margin: 7% 0 0 29.5%;
+}
+
+.ladder2 {
+  position: absolute;
+  width: 5.4%;
+  margin: 32% 0 0 -19.5%;
+}
+
+.redstar1 {
+  position: absolute;
+  width: 5.5%;
+  margin: 18% 0 0 -26.5%;
+  animation: bounce 2.5s ease infinite;
+}
+
+.redstar2 {
+  position: absolute;
+  width: 5.5%;
+  margin: 15% 0 0 1.5%;
+  animation: rotateem1 3.5s linear infinite;
+}
+
+@keyframes rotateem1 {
+  from {transform: rotate(0);}
+  to {transform: rotate(-360deg);}
+}
+
+.redstar3 {
+  position: absolute;
+  width: 5.5%;
+  margin: 15% 0 0 16.5%;
+  animation: swing 2s linear infinite;
+}
+.redstar4 {
+  position: absolute;
+  width: 5.5%;
+  margin: 41% 0 0 70.5%;
+  animation: spiral 2.5s linear infinite;
+}
+
+.spiral {
+  position: absolute;
+  width: 5.5%;
+  margin: 29% 0 0 12.5%;
+  animation: spiral 2.5s linear infinite;
+}
+
+@keyframes spiral {
+  0% {transform: scaleY(1.2);}
+  50% {transform: scaleY(0.5);}
+  100% {transform: scaleY(1.2);}
+}
+
+.ufo2 {
+  position: absolute;
+  width: 14.8%;
+  margin: 8% 0 0 -12%;
+  animation: ufo2 4s ease infinite;
+}
+
+@keyframes ufo2 {
+  0% {left: 10%; transform: rotate(60deg);}
+  50% {left: 50%; transform: rotate(-60deg);}
+  100% { left: 10%; transform: rotate(60deg);}
+}
+
+.boot {
+  position: absolute;
+  width: 8.9%;
+  margin: 10% 0 0 54%;
+  animation: bounce 2.5s ease infinite;
+}
+
+.yellowstar {
+  width: 11%;
+  position: absolute;
+  margin: 3.5% 0 0 -13%;
+  animation: blink 0.8s linear infinite;
+}
+
+.yellowstar2 {
+  width: 6%;
+  position: absolute;
+  margin: 21% 0 0 -34%;
+  animation: blink 0.5s linear infinite;
+}
+
+.laddertab{
+  opacity: 0;
+}
+
+.emojitab{
+  opacity: 0;
+}
+
+.cereal {
+  width: 9.6%;
+  position: absolute;
+  margin: 17.5% 0 0 -11%;
+  animation: rotateem 3.5s linear infinite;
+}
+
+.number4 {
+  margin: 8% 0 0 40%;
+}
+
+.number5 {
+  margin: 10.5% 0 0 -5.5%;
+}
+
+.number6 {
+  margin: 7% 0 0 -64%;
+}
+
+.number7 {
+  margin: 16% 0 0 -81%;
+}
+
+.number8 {
+  margin: 16.5% 0 0 -15%;
+}
+
+.number9 {
+  margin: 19.5% 0 0 42%;
+}
+
+.number10 {
+  margin: 32% 0 0 60%;
+}
+
+.number11 {
+  margin: 28.5% 0 0 -25%;
+}
+
+.number12 {
+  margin: 34.5% 0 0 -56%;
+}
+
+.number13 {
+  margin: 46% 0 0 -15%;
+}
+
+.number14 {
+  margin: 40.5% 0 0 28.5%;
+}
+
+.cubes {
+  width: 7.9%;
+  margin: 35.5% 0 0 -54%;
+  position: absolute;
+  animation: bounce 1.5s ease infinite;
+}
+
+.littlestar1 {
+  width: 7.6%;
+  margin: 4.3% 0 0 -46%;
+  position: absolute;
+  animation: blink 1s linear infinite;
+}
+
+
+.littlestar2 {
+  width: 7.9%;
+  margin: 19% 0 0 -53%;
+  position: absolute;
+  animation: blink 0.9s linear infinite;
+}
+
+.spiral2 {
+  width: 3.4%;
+  margin: 6% 0 0 -31%;
+  position: absolute;
+  animation: bounce 1.5s ease infinite;
+}
+
+.star2 {
+  width: 9%;
+  margin: 23% 0 0 48%;
+  position: absolute;
+  animation: blink 1.4s linear infinite;
+}
+
+.phone {
+  width: 9.4%;
+  position: absolute;
+  margin: 25% 0 0 -68%;
+  animation: swing2 0.5s linear infinite;
+}
+
+.phonetab {
+  opacity: 0;
+}
+
+@keyframes swing2 {
+  0% {rotate: -10deg;}
+  50% {rotate: 10deg;}
+  100% {rotate: -10deg;}
+}
+
+.greenstar {
+  width: 10.8%;
+  position: absolute;
+  margin: 28% 0 0 -85%;
+  animation: rotateem 3.5s linear infinite;
+}
+
+.letter2 {
+  position: absolute;
+  width: 8%;
+  margin: 42% 0 0 -38%;
+  animation: swing2 2s linear infinite;
+}
+
+@keyframes swing2 {
+  0% {rotate: 25deg;}
+  50% {rotate: -25deg;}
+  100% {rotate: 25deg;}
+}
+
+.sauce {
+  position: absolute;
+  width: 3.1%;
+  margin: 25% 0 0 37%;
+  rotate: -15deg;
+  animation: bounce 5s ease infinite;
+}
+
+.cloud2 {
+  position: absolute;
+  width: 9.6%;
+  margin: 24% 0 0 29%;
+  animation: cloud2 3.5s ease infinite;
+}
+
+@keyframes cloud2 {
+  0% {top: 55vw;}
+  50% {top: 45vw;}
+  100% {top: 55vw;}
+}
+
+.blink1 {
+  position: absolute;
+  width: 2%;
+  margin: 50% 0 0 42%;
+  animation: blink 1s linear infinite;
+}
+
+.bubbles6 {
+  position: absolute;
+  width: 2.5%;
+  margin: 26% 0 0 10%;
+  rotate: -100deg;
+  animation: blink 0.5s linear infinite;
+  animation-delay: 1s;
+}
+
+
+/* ----------- */
+
+.thirdsection {
+  width: 100%;
+  height: 51.5vw;
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/deskthirdbody.svg);
+  background-repeat: no-repeat;
+  background-size: 76%;
+  background-position: 54% -1%;
+}
+
+.number15 {
+  margin: 6.5% 0 0 59.5%;
+}
+
+.number16 {
+  margin: 7% 0 0 14.5%;
+}
+
+.number17 {
+  margin: 10.5% 0 0 -40.5%;
+}
+
+.number18 {
+  margin: 35.5% 0 0 -30%;
+}
+
+.number19 {
+  margin: 32% 0 0 13.5%;
+}
+
+
+.cloud3 {
+  position: absolute;
+  width: 9.6%;
+  margin: 0 0 0 46%;
+  animation: cloud 3s ease infinite;
+}
+
+.blink2 {
+  position: absolute;
+  width: 0.5%;
+  margin: 0 0 0 39%;
+  animation: blink 1s linear infinite;
+}
+
+.wrapper {
+  width: 100%;
+  height: 51.5vw;
+  background-image: url(../images/moon2.svg);
+  background-size: 54.1%;
+  background-repeat: no-repeat;
+  background-position: 117% 1180%;
+  position: relative;
+  overflow: hidden;
+}
+
+.flag {
+ width: 15.2%;
+ position: absolute;
+ margin: 9% 0 0 73%;
+ animation: bounce 2s ease infinite;
+}
+
+.orbit3 {
+  width: 65.2vw;
+  height: 65.2vw;
+  border: 0.3vw solid white;
+  border-radius: 50%;
+  margin: 4% 0 0 -76%;
+  position: absolute;
+}
+
+.heart2 {
+  margin: 35% 0 0 -77%;
+  position: absolute;
+  width: 6.4%;
+  animation: rotate2 3s linear infinite;
+}
+
+@keyframes rotate2 {
+  from { transform: rotate(0deg) translateX(33vw) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(33vw) rotate(-360deg);}
+} 
+
+.yellowstar3 {
+  width: 11%;
+  position: absolute;
+  margin: 11.5% 0 0 24%;
+  animation: spiral 2.5s linear infinite;
+}
+
+.emoji2 {
+  width: 7.9%;
+  position: absolute;
+  margin: 6% 0 0 -17%;
+  z-index: 3;
+  animation: rotateem1 3s linear infinite;
+}
+
+.littlestar3 {
+  width: 7.9%;
+  margin: 10% 0 0 -53%;
+  position: absolute;
+  animation: blink 0.9s linear infinite;
+  rotate: 19deg;
+}
+
+.letter3 {
+ position: absolute;
+ width: 7.5%;
+ margin: 36% 0 0 20%;
+ animation: swing 2s linear infinite;
+}
+
+.bubbles7 {
+  position: absolute;
+  width: 2.5%;
+  margin: 22% 0 0 -34%;
+  rotate: -90deg;
+  animation: blink 0.5s linear infinite;
+}
+
+.ufo3 {
+  position: absolute;
+  width: 14.8%;
+  margin: 22% 0 0 20%;
+  animation: ufo3 4s ease infinite;
+}
+
+@keyframes ufo3 {
+  0% {left: 10%; transform: rotate(30deg);}
+  50% {left: 30%; transform: rotate(-30deg);}
+  100% { left: 10%; transform: rotate(30deg);}
+}
+
+.redstar5 {
+  position: absolute;
+  width: 5.5%;
+  margin: 14% 0 0 -43.5%;
+  animation: spiral 2.5s linear infinite;
+}
+
+.redstar6 {
+  position: absolute;
+  width: 5.5%;
+  margin: 20% 0 0 -50.5%;
+  animation: rotateem1 3s linear infinite;
+}
+.redstar7 {
+  position: absolute;
+  width: 5.5%;
+  margin: 27% 0 0 -37.5%;
+  animation: bounce 2.5s ease infinite;
+}
+
+.yellowstartab {
+  opacity: 0;
+}
+
+.redstar8 {
+  position: absolute;
+  width: 14.5%;
+  margin: 27% 0 0 -62.5%;
+  animation: swing 2s linear infinite;
+}
+
+.spiral3 {
+  position: absolute;
+  width: 5.5%;
+  margin: 19% 0 0 -63.5%;
+  animation: spiral 1s linear infinite;
+}  
+
+.star4 {
+  width: 9%;
+  position: absolute;
+  margin: 40% 0 0 -1%;
+  animation: blink 2s linear infinite;
+}
+
+.cactustab {
+  opacity: 0;
+}
+
+.spiraltab {
+  opacity: 0;
+}
+
+.lettertab2 {
+  opacity: 0;
+}
+
+.yellowstartab2 {
+  opacity: 0;
+}

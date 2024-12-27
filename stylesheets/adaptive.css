@@ -1,0 +1,605 @@
+@media screen and (min-width: 415px) and (max-width: 1024px) /* tablet */{
+  
+  .bubbles1, .cactus, .emoji, .ufo1, .number, .star1, .letter, .cereal, .redstar3, .redstar2, .phone, .spiral2, .ladder, .bubbles3, .bubbles5, .bubbles6, .ladder2, .blink1, .blink2, .yellowstar, .spiral3, .redstar5, .redstar6, .redstar7, .letter3, .bubbles7, .yellowstar3, .omoji2, .cloud3, .emoji2, .ufo3 {
+    display: none;
+  }
+
+  .redstartab {
+    position: absolute;
+    opacity: 1;
+    width: 17.3vw;
+    margin: 100% 0 0 46%;
+    animation: bounce 2s ease infinite;
+  }
+
+  .tongue {
+    position: absolute;
+    margin: 93% 0 0 44.4%;
+    rotate: 0deg;
+  }
+
+  .cloud2 {
+    width: 16%;
+    margin: 210% 0 0 19%;
+  }
+
+
+  .laddertab{
+    position: absolute;
+    opacity: 1;
+    margin: 56% 0 0 -38%;
+    width: 9.5%;
+  }
+
+  .bubbles4 {
+    width: 6.5%;
+    margin: 71% 0 0 -80%;
+    rotate: -138deg;
+  }
+
+  .emojitab{
+    position: absolute;
+    opacity: 1;
+    margin: 55% 0 0 -67%;
+    width: 15%;
+    animation: rotateem1 2s linear infinite
+  }
+
+  .ufo2 {
+    width: 21%;
+    margin: 47% 0 0 18%;
+  }
+
+  .redstar1 {
+    position: absolute;
+    width: 19%;
+    margin: 30% 0 0 -40.5%;
+    animation: swing 2s ease infinite;
+  }
+
+  .littlestar2 {
+    width: 20%;
+    margin: 126% 0 0 -14%;
+  }
+
+  .sauce {
+    width: 6%;
+    margin: 90% 0 0 15%;
+  }
+
+  .cubes {
+    width: 18%;
+    margin: 73.5% 0 0 -15%;
+  }
+
+  .greenstar {
+    width: 16%;
+    margin: 85% 0 0 -58%;
+  }
+
+  .letter2 {
+    width: 16%;
+    margin: 104% 0 0 -30%;
+  }
+
+  .redstar4 {
+    width: 18%;
+    margin: 122% 0 0 70.5%;
+  }
+
+  .blockc1 {
+    margin: 110% 0 0 -3%;
+  }
+
+  
+  .blockc2 {
+    margin: 106% 0 0 0%;
+  }
+
+  
+  .blockc3 {
+    margin: 110% 0 0 -3%;
+  }
+
+  
+  .blockc4 {
+    margin: 101% 0 0 -6%;
+  }
+
+  .bubbles2 {
+    margin: 19% 0 0 -94%;
+  }
+
+  .vibrationlines1 {
+    width: 40%;
+    rotate: 2deg;
+    margin: 15% 0 0 32%;
+  }
+
+  .vibrationlines2 {
+    width: 40%;
+    rotate: -38deg;
+    margin: 68% 0 0 -60%;
+  }
+
+  .wrapper1 {
+    height: 133.3vw;
+  }
+
+  .firstsection {
+    height: 133.3vw;
+    color: white;
+    background-image: url(../images/tabletfirstbody.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 75% 101%;
+  }
+
+  .pupil1 {
+    margin: 55% 0 0 -41%;
+    width: 5.8%;
+    height: 5%;
+  }
+
+  
+  .pupil2 {
+    margin: 54% 0 0 36%;
+    width: 5.8%;
+    height: 5%;
+  }
+
+  .phonetab {
+   width: 14%;
+   position: absolute;
+   margin: 90% 0 0 82%;
+   animation: swing2 0.5s linear infinite;  
+  }
+
+  .lettertab {
+    opacity: 1;
+    position: absolute;
+    width: 20%;
+    margin: 117% 0 0 78%;
+    animation: swing 2s linear infinite;
+  }
+
+  /* -------- */
+  
+  .secondsection {
+    width: 100%;
+    height: 138.3vw;
+    background-image: url(../images/tabletsecondbody.svg);
+    background-repeat: no-repeat;
+    background-size: 77%;
+    background-position: 60% 0%;
+  }
+
+  .yellowstar2 {
+    width: 16%;
+    margin: 1% 0 0 64%;
+    animation: rotateem 3s linear infinite;
+  }
+
+  .boot {
+    width: 17.9%;
+    margin: 96% 0 0 47%;
+  }
+
+  .yellowstartab {
+    opacity: 1;
+    width: 15%;
+    position: absolute;
+    margin: 73% 0 0 63%;
+    animation: blink 0.8s linear infinite;
+  }
+
+  .balloon {
+    width: 18.7%;
+    margin: 18% 0 0 -8.5%;
+  }
+
+  .cloud {
+    width: 22%;
+    margin: 3% 0 0 38.5%; 
+  }
+
+  .spiral {
+    width: 11.5%;
+    margin: 15% 0 0 29.5%;
+  }
+
+  .cactustab {
+    position: absolute;
+    opacity: 1;
+    margin: 33% 0 0 15%;
+    width: 14.7%;
+  }
+
+  .littlestar1 {
+    width: 17.6%;
+    margin: 27.3% 0 0 42%;
+  }
+
+  .spiraltab {
+    opacity: 1;
+    position: absolute;
+    width: 13.5%;
+    margin: 8% 0 0 43%;
+    animation: spiral 2s ease infinite;
+  }
+
+  .flag {
+    width: 23.4%;
+    margin: 74% 0 0 65%;
+  }
+    
+  .redstar8 {
+    z-index: 4;
+    width: 24.5%;
+    margin: 48% 0 0 13.5%;
+  }
+
+  .littlestar3 {
+    width: 20%;
+    margin: 76% 0 0 -15%;
+    rotate: -7deg;
+  }
+
+  .star4 {
+    width: 26%;
+    margin: 110% 0 0 -28%;
+  }
+
+  .lettertab2 {
+    opacity: 1;
+    position: absolute;
+    width: 18.2%;
+    margin: 59% 0 0 -53%;
+    animation: swing2 1s ease infinite;
+  }
+  
+  .yellowstartab2 {
+    opacity: 1;
+    position: absolute;
+    width: 15.7%;
+    margin: 83% 0 0 -73%;
+    animation: spiral 1s ease infinite;
+  }
+
+  .wrapper {
+    height: 133.3vw;
+    background-size: 66%;
+    background-position: 121% 126%;
+  }
+
+  .thirdsection {
+    width: 100%;
+    height: 133.3vw;
+    background-image: url(../images/tabletthirdbody.svg);
+    background-repeat: no-repeat;
+    background-size: 78%;
+    background-position: 50% 0%;
+  }
+}
+
+@media screen and (max-width: 414px)  /* mobile */ {
+ 
+
+  .wrapper1 {
+    height: 130vw;
+  }
+  
+  .firstsection {
+    height: 130vw;
+    color: white;
+    background-image: url(../images/tabletfirstbody.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 75% 101%;
+  }
+  
+.secondsection {
+  width: 100%;
+  height: 137vw;
+  background-image: url(../images/tabletsecondbody.svg);
+  background-repeat: no-repeat;
+  background-size: 76%;
+  background-position: 62% 100%;
+}
+
+.wrapper {
+  height: 130vw;
+}
+
+.thirdsection {
+  width: 100%;
+  height: 170.667vw;
+  background-image: url(../images/tabletthirdbody.svg);
+  background-repeat: no-repeat;
+  background-size: 76%;
+  background-position: 54% 0%;
+}
+
+ 
+.bubbles1, .cactus, .emoji, .ufo1, .number, .star1, .letter, .cereal, .redstar3, .redstar2, .phone, .spiral2, .ladder, .bubbles3, .bubbles5, .bubbles6, .ladder2, .blink1, .blink2, .yellowstar, .spiral3, .redstar5, .redstar6, .redstar7, .letter3, .bubbles7, .yellowstar3, .omoji2, .cloud3, .emoji2, .ufo3, .orbit1, .orbit2, .moon, .bubbles2, .orbit3, .heart2{
+  display: none;
+}
+
+.redstartab {
+  position: absolute;
+  opacity: 1;
+  width: 17.3vw;
+  margin: 100% 0 0 46%;
+  animation: bounce 2s ease infinite;
+}
+
+.tongue {
+  position: absolute;
+  margin: 93% 0 0 44.4%;
+  rotate: 0deg;
+}
+
+.cloud2 {
+  width: 16%;
+  margin: 210% 0 0 19%;
+}
+
+
+.laddertab{
+  position: absolute;
+  opacity: 1;
+  margin: 56% 0 0 -38%;
+  width: 9.5%;
+}
+
+.bubbles4 {
+  width: 6.5%;
+  margin: 71% 0 0 -80%;
+  rotate: -138deg;
+}
+
+.emojitab{
+  position: absolute;
+  opacity: 1;
+  margin: 55% 0 0 -67%;
+  width: 15%;
+  animation: rotateem1 2s linear infinite
+}
+
+.ufo2 {
+  width: 21%;
+  margin: 47% 0 0 18%;
+}
+
+.redstar1 {
+  position: absolute;
+  width: 19%;
+  margin: 30% 0 0 -40.5%;
+  animation: swing 2s ease infinite;
+}
+
+.littlestar2 {
+  width: 20%;
+  margin: 126% 0 0 -14%;
+}
+
+.sauce {
+  width: 6%;
+  margin: 90% 0 0 15%;
+}
+
+.cubes {
+  width: 18%;
+  margin: 73.5% 0 0 -15%;
+}
+
+.greenstar {
+  width: 16%;
+  margin: 85% 0 0 -58%;
+}
+
+.letter2 {
+  width: 16%;
+  margin: 104% 0 0 -30%;
+}
+
+.redstar4 {
+  width: 18%;
+  margin: 122% 0 0 70.5%;
+}
+
+.blockc1 {
+  margin: 110% 0 0 -3%;
+}
+
+
+.blockc2 {
+  margin: 106% 0 0 0%;
+}
+
+
+.blockc3 {
+  margin: 110% 0 0 -3%;
+}
+
+
+.blockc4 {
+  margin: 101% 0 0 -6%;
+}
+
+.bubbles2 {
+  margin: 19% 0 0 -94%;
+}
+
+.vibrationlines1 {
+  width: 40%;
+  rotate: 2deg;
+  margin: 15% 0 0 32%;
+}
+
+.vibrationlines2 {
+  width: 40%;
+  rotate: -38deg;
+  margin: 68% 0 0 -60%;
+}
+
+.wrapper1 {
+  height: 133.3vw;
+}
+
+.firstsection {
+  height: 133.3vw;
+  color: white;
+  background-image: url(../images/tabletfirstbody.svg);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 75% 101%;
+}
+
+.pupil1 {
+  margin: 55% 0 0 -41%;
+  width: 5.8%;
+  height: 5%;
+}
+
+
+.pupil2 {
+  margin: 54% 0 0 36%;
+  width: 5.8%;
+  height: 5%;
+}
+
+.phonetab {
+ width: 14%;
+ position: absolute;
+ margin: 90% 0 0 82%;
+ animation: swing2 0.5s linear infinite;  
+}
+
+.lettertab {
+  opacity: 1;
+  position: absolute;
+  width: 20%;
+  margin: 117% 0 0 78%;
+  animation: swing 2s linear infinite;
+}
+
+/* -------- */
+
+.secondsection {
+  width: 100%;
+  height: 138.3vw;
+  background-image: url(../images/tabletsecondbody.svg);
+  background-repeat: no-repeat;
+  background-size: 77%;
+  background-position: 60% 0%;
+}
+
+.yellowstar2 {
+  width: 16%;
+  margin: 1% 0 0 64%;
+  animation: rotateem 3s linear infinite;
+}
+
+.boot {
+  width: 17.9%;
+  margin: 96% 0 0 47%;
+}
+
+.yellowstartab {
+  opacity: 1;
+  width: 15%;
+  position: absolute;
+  margin: 73% 0 0 63%;
+  animation: blink 0.8s linear infinite;
+}
+
+.balloon {
+  width: 18.7%;
+  margin: 18% 0 0 -8.5%;
+}
+
+.cloud {
+  width: 22%;
+  margin: 3% 0 0 38.5%; 
+}
+
+.spiral {
+  width: 11.5%;
+  margin: 15% 0 0 29.5%;
+}
+
+.cactustab {
+  position: absolute;
+  opacity: 1;
+  margin: 33% 0 0 15%;
+  width: 14.7%;
+}
+
+.littlestar1 {
+  width: 17.6%;
+  margin: 27.3% 0 0 42%;
+}
+
+.spiraltab {
+  opacity: 1;
+  position: absolute;
+  width: 13.5%;
+  margin: 8% 0 0 43%;
+  animation: spiral 2s ease infinite;
+}
+
+.flag {
+  width: 23.4%;
+  margin: 74% 0 0 65%;
+}
+  
+.redstar8 {
+  z-index: 4;
+  width: 24.5%;
+  margin: 48% 0 0 13.5%;
+}
+
+.littlestar3 {
+  width: 20%;
+  margin: 76% 0 0 -15%;
+  rotate: -7deg;
+}
+
+.star4 {
+  width: 26%;
+  margin: 110% 0 0 -28%;
+}
+
+.lettertab2 {
+  opacity: 1;
+  position: absolute;
+  width: 18.2%;
+  margin: 59% 0 0 -53%;
+  animation: swing2 1s linear infinite;
+}
+
+.yellowstartab2 {
+  opacity: 1;
+  position: absolute;
+  width: 15.7%;
+  margin: 83% 0 0 -73%;
+  animation: spiral 1s ease infinite;
+}
+
+.wrapper {
+  height: 133.3vw;
+  background-size: 66%;
+  background-position: 121% 126%;
+}
+
+.thirdsection {
+  width: 100%;
+  height: 133.3vw;
+  background-image: url(../images/tabletthirdbody.svg);
+  background-repeat: no-repeat;
+  background-size: 78%;
+  background-position: 50% 0%;
+}
+
+}
